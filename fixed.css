@@ -1,0 +1,27 @@
+.box-set {
+    background-color: darkgray;
+}
+.box {
+    background-color: darkgreen;
+    height: 80px;
+    position: fixed;
+    width: 80px;
+}
+
+/*Box rules: percentages define anchors (i.e. postition of each box relative to enclosing box)*/
+
+.box-1 {
+    top: 50%;
+    left: 80%;
+}
+.box-2 {
+    top: 0;
+    right: -20px;
+}
+.box-3 {
+    bottom: -60px;
+    right: 75px;
+}
+.box-4 {
+    bottom: 0;
+}
